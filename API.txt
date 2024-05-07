@@ -1,0 +1,14 @@
+KEY ADRESS : AIzaSyAcA7RA89JJCFyu6C6aTsykMJcEez3iDGk
+
+SERCH YOUTUBE DATA ( VIDEO ) :
+https://www.googleapis.com/youtube/v3/search?key={KEY-ADRESS}&q={STRING_SERCH}&part=snippet&type=video
+
+SERCH YOUTUBE DATA ( AUDIO ) :
+https://www.googleapis.com/youtube/v3/search?key={ KEY-ADRESS }&q={STRING_SERCH}&part=snippet&type=video&videoCategoryId=10&videoDefinition=any
+
+video:
+https://www.googleapis.com/youtube/v3/videos?key={key-adress}&id={ id_video }&part=player
+
+
+audio:
+https://www.googleapis.com/youtube/v3/videos?key={ key-adresss }&id={ id_video }&part=contentDetails
